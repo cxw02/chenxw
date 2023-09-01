@@ -4,6 +4,35 @@
   
   
   <entry>
+    <title>Hexo + Github 搭建自己的专属博客</title>
+    <link href="/2023/09/01/Hexo-Github-%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%93%E5%B1%9E%E5%8D%9A%E5%AE%A2/"/>
+    <url>/2023/09/01/Hexo-Github-%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%93%E5%B1%9E%E5%8D%9A%E5%AE%A2/</url>
+    
+    <content type="html"><![CDATA[<h2 id="1-安装Git和NodeJS"><a href="#1-安装Git和NodeJS" class="headerlink" title="1. 安装Git和NodeJS"></a>1. 安装Git和NodeJS</h2><ul><li><p>在Windows上使用Git，可以从<a href="https://git-scm.com/downloads">Git官网</a>直接下载，然后按默认选项安装即可。安装完成后，在开始菜单里找到“Git”-&gt;“Git Bash”，蹦出一个类似命令行窗口的东西，就说明Git安装成功！</p></li><li><p>由于Hexo是基于Node.js驱动的一款博客框架，所以安装<a href="https://nodejs.org/en/download">NodeJS</a>并配置环境变量。</p></li><li><p>安装之后可以输入以下命令查看是否安装成功：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">git version<br>node -v<br>npm -v<br></code></pre></td></tr></table></figure><p><img src="/img/3/1-1.png" alt="图1-1"></p></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>教程</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>markdown</tag>
+      
+      <tag>hexo</tag>
+      
+      <tag>Github</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>第二篇文章</title>
     <link href="/2023/08/31/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/"/>
     <url>/2023/08/31/%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%96%87%E7%AB%A0/</url>
@@ -29,11 +58,11 @@
   
   
   <entry>
-    <title>第一篇文章</title>
-    <link href="/2023/08/31/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <url>/2023/08/31/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <title>测试文章</title>
+    <link href="/2023/08/31/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
+    <url>/2023/08/31/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
     
-    <content type="html"><![CDATA[<h2 id="hello"><a href="#hello" class="headerlink" title="hello"></a>hello</h2>]]></content>
+    <content type="html"><![CDATA[<h1 id="Hello"><a href="#Hello" class="headerlink" title="Hello"></a>Hello</h1><h2 id="1-标题一"><a href="#1-标题一" class="headerlink" title="1.标题一"></a>1.标题一</h2><p>文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试</p><h2 id="2-标题二"><a href="#2-标题二" class="headerlink" title="2.标题二"></a>2.标题二</h2><p>文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试文字段落测试</p>]]></content>
     
     
     <categories>
