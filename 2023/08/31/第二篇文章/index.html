@@ -25,7 +25,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/img/2/cover.jpg">
 <meta property="article:published_time" content="2023-08-31T07:55:35.000Z">
-<meta property="article:modified_time" content="2023-09-01T14:50:57.030Z">
+<meta property="article:modified_time" content="2023-09-02T06:40:09.929Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="markdown">
 <meta name="twitter:card" content="summary_large_image">
@@ -234,7 +234,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          17 字
+          254 字
         
       </span>
     
@@ -245,7 +245,7 @@
         
         
         
-          1 分钟
+          3 分钟
         
       </span>
     
@@ -287,7 +287,19 @@
             
               <div class="markdown-body">
                 
-                <h2 id="这是我的第二篇文章"><a href="#这是我的第二篇文章" class="headerlink" title="这是我的第二篇文章"></a>这是我的第二篇文章</h2><h3 id="这是一个三级标题"><a href="#这是一个三级标题" class="headerlink" title="这是一个三级标题"></a>这是一个三级标题</h3>
+                <h2 id="这是我的第二篇文章"><a href="#这是我的第二篇文章" class="headerlink" title="这是我的第二篇文章"></a>这是我的第二篇文章</h2><h3 id="hexo静态博客框架中各个目录的作用"><a href="#hexo静态博客框架中各个目录的作用" class="headerlink" title="hexo静态博客框架中各个目录的作用"></a>hexo静态博客框架中各个目录的作用</h3><ul>
+<li><p>.deploy_git: 这个应该是git部署用的文件。比如你写好的博客想部署到 GitHub Pages上去的话，可以用git部署插件，那个插件会创建这个目录</p>
+</li>
+<li><p>node_modules: 这个应该是node.js用到的安装到当前“项目／目录”的插件／模块目录吧。毕竟hexo是通过npm安装的吧？</p>
+</li>
+<li><p>public: 这应该是hero编译之后的网站的目录</p>
+</li>
+<li><p>.gitignore: 这是一个git的配置文件，里面定义了不列入git管理的内容设置</p>
+</li>
+<li><p>db.json: 这个我也不知道。</p>
+</li>
+</ul>
+
                 
               </div>
             
