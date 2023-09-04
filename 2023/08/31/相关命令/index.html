@@ -25,9 +25,12 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/img/2/cover.jpg">
 <meta property="article:published_time" content="2023-08-31T07:55:35.000Z">
-<meta property="article:modified_time" content="2023-09-03T11:02:45.324Z">
+<meta property="article:modified_time" content="2023-09-04T13:47:32.455Z">
 <meta property="article:author" content="CHEN XW">
 <meta property="article:tag" content="markdown">
+<meta property="article:tag" content="hexo">
+<meta property="article:tag" content="Github">
+<meta property="article:tag" content="git">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="http://example.com/img/2/cover.jpg">
   
@@ -234,7 +237,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1k 字
+          1.1k 字
         
       </span>
     
@@ -245,7 +248,7 @@
         
         
         
-          9 分钟
+          10 分钟
         
       </span>
     
@@ -299,6 +302,9 @@
 <li><p>db.json: 这个我也不知道。</p>
 </li>
 </ul>
+<h2 id="创建新文章"><a href="#创建新文章" class="headerlink" title="创建新文章"></a>创建新文章</h2><p>你可以执行下列命令来创建一篇新文章或者新的页面。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo new [layout] &lt;title&gt;<br></code></pre></td></tr></table></figure>
+<p>您可以在命令中指定文章的布局（layout），默认为 post。</p>
 <h2 id="更新博客"><a href="#更新博客" class="headerlink" title="更新博客"></a>更新博客</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo clean<br>hexo g<br>hexo d<br></code></pre></td></tr></table></figure>
 
 <h2 id="使用git上传文件到github"><a href="#使用git上传文件到github" class="headerlink" title="使用git上传文件到github"></a>使用git上传文件到github</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs bash">git add .<br>git status  （查看现在的状态，也可以不看，随你啦）<br>git commit -m <span class="hljs-string">&quot;这里是注释&quot;</span><br>git push origin main<br></code></pre></td></tr></table></figure>
@@ -371,6 +377,12 @@
       <i class="iconfont icon-tags"></i>
       
         <a href="/tags/markdown/" class="print-no-link">#markdown</a>
+      
+        <a href="/tags/hexo/" class="print-no-link">#hexo</a>
+      
+        <a href="/tags/Github/" class="print-no-link">#Github</a>
+      
+        <a href="/tags/git/" class="print-no-link">#git</a>
       
     </div>
   
@@ -706,4 +718,10 @@
     <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
   </noscript>
 </body>
+<!--单击显示文字-->
+<script type="text/javascript" src="/js/click_show_text.js"></script>
+<!--动态线条背景-->
+<script type="text/javascript"
+color="127,127,127" opacity='0.7' zIndex="-2" count="200" src="/js/canvas-nest.js">
+</script>
 </html>
