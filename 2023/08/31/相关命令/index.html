@@ -25,7 +25,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://cxw02.github.io/chenxw/img/2/cover.jpg">
 <meta property="article:published_time" content="2023-08-31T07:55:35.000Z">
-<meta property="article:modified_time" content="2023-09-29T05:39:41.457Z">
+<meta property="article:modified_time" content="2023-09-29T07:56:46.570Z">
 <meta property="article:author" content="CHEN XW">
 <meta property="article:tag" content="markdown">
 <meta property="article:tag" content="hexo">
@@ -249,7 +249,7 @@
         
         
         
-          11 分钟
+          12 分钟
         
       </span>
     
@@ -306,7 +306,10 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo d<br></code></pre></td></tr></table></figure>
 
 
-<h2 id="使用git上传源码文件到github"><a href="#使用git上传源码文件到github" class="headerlink" title="使用git上传源码文件到github"></a>使用git上传源码文件到github</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs bash">git add .<br>git status  （查看现在的状态，也可以不看，随你啦）<br>git commit -m <span class="hljs-string">&quot;这里是注释&quot;</span><br>git push origin main<br></code></pre></td></tr></table></figure>
+<h2 id="使用git上传源码文件到github"><a href="#使用git上传源码文件到github" class="headerlink" title="使用git上传源码文件到github"></a>使用git上传源码文件到github</h2><p>创建私人仓库后在根目录执行：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">git init<br>git remote add origin https://github.com/username/仓库名.git<br></code></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs bash">git add .<br>git status  （查看现在的状态，也可以不看，随你啦）<br>git commit -m <span class="hljs-string">&quot;这里是注释&quot;</span><br>git push origin main<br></code></pre></td></tr></table></figure>
 <h2 id="1-恢复某个版本（先用git-status查看是否改动）"><a href="#1-恢复某个版本（先用git-status查看是否改动）" class="headerlink" title="1. 恢复某个版本（先用git status查看是否改动）"></a>1. 恢复某个版本（先用git status查看是否改动）</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">git <span class="hljs-built_in">log</span><br>git reset --hard 76eac54<br></code></pre></td></tr></table></figure>
 
 <h2 id="2-删除所有Commit提交记录"><a href="#2-删除所有Commit提交记录" class="headerlink" title="2. 删除所有Commit提交记录"></a>2. 删除所有Commit提交记录</h2><ul>
